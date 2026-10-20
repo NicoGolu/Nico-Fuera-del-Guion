@@ -470,3 +470,18 @@ legend { padding: 0; }
   .portada__rejilla:has(> .hueco--oculto) { grid-template-columns: 1fr; }
   .portada__rejilla:has(> .hueco--oculto) .portada__titulo { max-width: 14ch; }
 }
+
+/* ---------- Foto de "Para quién" ---------- */
+.para-quien__intro { display: grid; gap: 2rem; margin-bottom: 1rem; }
+.para-quien__intro .lead { margin-bottom: 0; }
+.para-quien__foto { aspect-ratio: 4 / 3; }
+@media (min-width: 900px) {
+  .para-quien__intro { grid-template-columns: 1.5fr 1fr; gap: 4rem; align-items: end; margin-bottom: 2rem; }
+  .para-quien__foto { aspect-ratio: 4 / 5; }
+}
+
+/* Si el manifiesto no tiene vídeo, la foto ocupa su lugar también en móvil */
+.manifiesto__medios:not(:has(.hueco--16x9:not(.hueco--oculto))) .manifiesto__foto { display: grid; width: 100%; }
+@media (max-width: 899px) {
+  .manifiesto__medios:not(:has(.hueco--16x9:not(.hueco--oculto))) .manifiesto__foto { aspect-ratio: 4 / 3; }
+}

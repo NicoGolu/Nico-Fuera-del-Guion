@@ -66,8 +66,9 @@ window.SITIO = {
      Mientras estén vacías, el hueco no se muestra en la web.
      Pon mostrarHuecos: true para ver los marcadores mientras diseñas. */
   mostrarHuecos: false,
-  retratoNico: "",        // portada · vertical 4:5
-  fotoNicoTrabajando: "", // manifiesto · vertical 4:5
+  retratoNico: "img/portada.jpg",           // portada · vertical 4:5
+  fotoNicoTrabajando: "img/trabajando.jpg", // manifiesto · vertical 4:5
+  fotoTalento: "img/talento.jpg",           // "Para quién es" · vertical 4:5
   fotoPlaza1: "",         // persona seleccionada 1 · cuadrada
   fotoPlaza2: "",         // persona seleccionada 2 · cuadrada
 
