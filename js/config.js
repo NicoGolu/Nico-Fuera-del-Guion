@@ -47,7 +47,7 @@ window.SITIO = {
 
   /* ---------- Datos legales (privacidad y aviso legal) ---------- */
   titular: "Nicolás Goloubintseff",
-  nif: "",          // NIF o NIE cuando lo tengas. Vacío = la línea no se muestra. Nunca el pasaporte.
+  nif: "Z2673155P", // NIE. Vacío = la línea no se muestra. Nunca el pasaporte.
   domicilio: "Avenida de Vigo 13, 36003 Pontevedra (España)",
   dominio: "nicogolu.github.io/Nico-Fuera-del-Guion",
   conservacionCandidaturas: "12 meses desde el cierre de la convocatoria",
