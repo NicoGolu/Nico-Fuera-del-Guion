@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nico · Fuera del guion — No vivas un año entero para 20 días libres</title>
+  <meta name="description" content="Nico es el socio de lanzamiento de personas con talento atrapadas en un empleo: construye su negocio a su lado hasta que alcanzan su número de libertad. Temporada 0: convocatoria abierta.">
+  <meta name="theme-color" content="#0B1F3A">
+
+  <!-- Vista previa al compartir en redes. Cuando tengas una imagen (1200×630), súbela a img/ y descomenta la línea og:image. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nico · Fuera del guion">
+  <meta property="og:description" content="No vivas un año entero para 20 días libres. Temporada 0: 2 plazas para construir tu negocio a mi lado.">
+  <!-- <meta property="og:image" content="https://tudominio.com/img/compartir.jpg"> -->
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+
+<!-- ================= CABECERA ================= -->
+<header class="cabecera">
+  <div class="contenedor cabecera__fila">
+    <a href="#inicio" class="logo logo--linea" data-logo>
+      <span class="logo__l1" data-cfg="logoLinea1" aria-hidden="true"></span>
+      <span class="logo__l2" data-cfg="logoLinea2" aria-hidden="true"></span>
+      <span class="logo__l3" aria-hidden="true"><span data-cfg="logoLinea3"></span></span>
+    </a>
+    <nav class="cabecera__nav" aria-label="Secciones">
+      <a href="#manifiesto">Manifiesto</a>
+      <a href="#que-es">Qué es</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#preguntas">Preguntas</a>
+    </nav>
+    <a class="boton boton--peque" href="#aplicar">Aplicar</a>
+  </div>
+</header>
+
+<main id="contenido">
+
+<!-- ================= 1 · PORTADA ================= -->
+<section id="inicio" class="portada">
+  <div class="contenedor portada__rejilla">
+    <div class="portada__texto">
+      <p class="etiqueta"><span data-cfg="temporada"></span> · <span data-cfg="plazas"></span> plazas · Hasta el <span data-cfg="fechaCierre"></span></p>
+      <h1 class="portada__titulo">No vivas un año entero para <span class="subrayado">20 días libres.</span></h1>
+      <p class="lead">Soy <span data-cfg="nombrePersona"></span>. Si tienes un talento que se está apagando dentro de un trabajo, construyo tu negocio a tu lado, mientras sigues en tu empleo, hasta que puedas elegir.</p>
+      <div class="botones">
+        <a class="boton" href="#aplicar"><span>Aplicar a la <span data-cfg="temporada"></span></span> <span aria-hidden="true">→</span></a>
+        <a class="boton boton--secundario" href="#manifiesto">Leer el manifiesto</a>
+      </div>
+      <p class="portada__nota">No es un curso. No es coaching. Es construir juntos.</p>
+    </div>
+
+    <!-- HUECO FOTO: retrato de Nico. Ruta en config.js → retratoNico -->
+    <figure class="hueco hueco--4x5 portada__foto" data-media="retratoNico" data-alt="Retrato de Nico">
+      <div class="hueco__marcador">
+        <svg class="hueco__icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h3l2-2h6l2 2h3v12H4z"/><circle cx="12" cy="13" r="3.5"/></svg>
+        <span class="hueco__titulo">Foto · Retrato de Nico</span>
+        <span class="hueco__nota">Vertical 4:5. Luz natural, real, sin pose de anuncio.</span>
+      </div>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= 2 · MANIFIESTO ================= -->
+<section id="manifiesto" class="seccion seccion--hueso">
+  <div class="contenedor">
+    <p class="etiqueta">Manifiesto</p>
+    <h2 class="titular guion">
+      <span class="sr-only">El guion que te dieron:</span>
+      <span class="tachado">Estudia.</span>
+      <span class="tachado">Trabaja.</span>
+      <span class="tachado">Aguanta.</span>
+    </h2>
+
+    <div class="manifiesto">
+      <div class="manifiesto__medios">
+        <!-- HUECO VÍDEO: vídeo del manifiesto. Enlace en config.js → videoManifiesto -->
+        <figure class="hueco hueco--16x9" data-media="videoManifiesto" data-alt="Vídeo del manifiesto de Nico">
+          <div class="hueco__marcador">
+            <svg class="hueco__icono" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M10 8.5v7l6-3.5z"/></svg>
+            <span class="hueco__titulo">Vídeo · El manifiesto</span>
+            <span class="hueco__nota">Horizontal 16:9. Voz en off sobre imágenes de tu día, o formato entrevista.</span>
+          </div>
+        </figure>
+        <!-- HUECO FOTO: Nico trabajando. Ruta en config.js → fotoNicoTrabajando -->
+        <figure class="hueco hueco--4x5 manifiesto__foto" data-media="fotoNicoTrabajando" data-alt="Nico trabajando">
+          <div class="hueco__marcador">
+            <svg class="hueco__icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h3l2-2h6l2 2h3v12H4z"/><circle cx="12" cy="13" r="3.5"/></svg>
+            <span class="hueco__titulo">Foto · Nico trabajando</span>
+            <span class="hueco__nota">Vertical 4:5. Un momento real de tu día.</span>
+          </div>
+        </figure>
+      </div>
+
+      <div class="manifiesto__texto">
+        <p class="manifiesto__entrada">Te enseñaron que el camino era estudiar, conseguir un buen trabajo y aguantar. Nadie te dijo que el precio era tu vida.</p>
+        <p>Yo lo viví. Cuatro años de empleado. Nueve horas al día vendiendo mi tiempo por un sueldo que apenas llegaba a fin de mes. Veía a compañeros que llevaban años en la empresa. Algunos ganaban bien. Ninguno era feliz. No tenían tiempo para disfrutar nada de lo que ganaban. Vivíamos un año entero para 20 días libres. Y a veces ni siquiera podíamos elegirlos. Llegaba diciembre y me preguntaba: ¿qué saqué de este año? Nada. Trabajé para sobrevivir.</p>
+        <p>Así que me fui. Y nadie me ayudó. Aprendí todo en el barro: a montar un negocio, a vender, a hacer números, a equivocarme y a pagar cada error de mi bolsillo, con la presión de los gastos de cada mes encima.</p>
+        <p>Hoy mi tiempo es mío. No trabajo menos: trabajo en lo mío. Hay semanas en que trabajo más que nunca, pero porque lo elijo yo. Decido cuándo empiezo, cuándo paro y con quién estoy. Y cuando alguien a quien quiero me necesita, estoy. <strong>Eso es libertad. Y no hay sueldo que la pague.</strong></p>
+        <!-- Línea opcional, SOLO con permiso de tu pareja. Para activarla, quita los símbolos de comentario:
+        <p>Ya lo hice con la persona más cercana a mí: hoy su negocio es rentable.</p>
+        -->
+        <p>Ahora quiero que tú no tengas que hacerlo solo. Si tienes un talento que se está apagando dentro de una oficina, yo pongo todo lo que aprendí a golpes —la web, la marca, los números, los clientes, los contactos— y lo construimos juntos, mientras sigues en tu trabajo, hasta que puedas elegir.</p>
+        <p class="manifiesto__cierre">No vivas un año entero para 20 días libres.</p>
+        <p class="manifiesto__firma">— <span data-cfg="nombrePersona"></span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 3 · QUÉ ES ================= -->
+<section id="que-es" class="seccion">
+  <div class="contenedor">
+    <p class="etiqueta">Qué es</p>
+    <h2 class="titular">Tu socio de lanzamiento</h2>
+
+    <p class="sr-only">No es un curso, ni un coach, ni un gurú.</p>
+    <ul class="no-soy" aria-hidden="true">
+      <li><span class="tachado">Curso</span></li>
+      <li><span class="tachado">Coach</span></li>
+      <li><span class="tachado">Gurú</span></li>
+    </ul>
+
+    <div class="dos-columnas">
+      <div class="texto-largo">
+        <p class="lead">Sabes hacer lo tuyo. Lo difícil es todo lo demás: la marca, la web, el contenido, los números, los trámites, los clientes, los locales, los socios.</p>
+        <p>Emprender solo, aprendiendo en el barro, es lento, caro y frustrante. Yo no vendo promesas ni lecciones grabadas: pongo mi tiempo, mi experiencia y mis contactos para construir tu negocio contigo. Tú pones tu talento y tus horas.</p>
+
+        <h3 class="subtitulo">Por qué yo</h3>
+        <p>Viví en primera persona lo que es que te compren el tiempo. Después aprendí cada parte de un negocio por mi cuenta: ecommerce internacional en Amazon, logística, compliance, automatización con IA. No te hablo desde un escenario. Te hablo desde el barro.</p>
+      </div>
+
+      <div class="tarjeta" id="numero-libertad">
+        <h3 class="subtitulo">Tu número de libertad</h3>
+        <p>Es lo que tu negocio tiene que generar cada mes para cubrir tus gastos básicos. Cuando lo alcanzas, puedes elegir: dejar tu empleo o no. Desde la libertad, no desde la necesidad. Cada persona tiene el suyo.</p>
+
+        <form class="calculadora" id="calculadora" aria-label="Calcula tu número de libertad aproximado">
+          <p class="calculadora__titulo">Calcula el tuyo, aproximado:</p>
+          <div class="calculadora__campos">
+            <label>Vivienda <span class="campo-euro"><input type="number" inputmode="numeric" min="0" step="10" placeholder="0" name="vivienda"><span>€</span></span></label>
+            <label>Comida <span class="campo-euro"><input type="number" inputmode="numeric" min="0" step="10" placeholder="0" name="comida"><span>€</span></span></label>
+            <label>Facturas <span class="campo-euro"><input type="number" inputmode="numeric" min="0" step="10" placeholder="0" name="facturas"><span>€</span></span></label>
+            <label>Transporte <span class="campo-euro"><input type="number" inputmode="numeric" min="0" step="10" placeholder="0" name="transporte"><span>€</span></span></label>
+            <label class="calculadora__ancho">Otros gastos fijos <span class="campo-euro"><input type="number" inputmode="numeric" min="0" step="10" placeholder="0" name="otros"><span>€</span></span></label>
+          </div>
+          <p class="calculadora__resultado">
+            <span>Tu número de libertad</span>
+            <output id="calculadora-total" for="calculadora" aria-live="polite">0 €</output>
+            <span class="calculadora__mes">al mes</span>
+          </p>
+          <button type="button" class="boton boton--secundario boton--peque" id="usar-numero" disabled>Usar esta cifra en mi aplicación</button>
+          <p class="nota">Es una primera aproximación. En el diagnóstico inicial lo calculamos juntos con detalle. No se guarda ni se envía nada.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 4 · QUÉ RECIBES ================= -->
+<section id="que-recibes" class="seccion seccion--hueso">
+  <div class="contenedor">
+    <p class="etiqueta">Qué recibes</p>
+    <h2 class="titular">Lo que construimos juntos</h2>
+    <p class="lead">Todo lo que un negocio necesita para arrancar y que normalmente aprenderías solo, a golpes.</p>
+
+    <ol class="entregables">
+      <li><span class="entregables__num">01</span><h3>Diagnóstico</h3><p>Tu punto de partida y el cálculo de tu número de libertad.</p></li>
+      <li><span class="entregables__num">02</span><h3>Validación</h3><p>A quién le vendes, a qué precio y qué necesitas para empezar.</p></li>
+      <li><span class="entregables__num">03</span><h3>Marca</h3><p>Nombre, logo e identidad visual.</p></li>
+      <li><span class="entregables__num">04</span><h3>Presencia digital</h3><p>Web, tienda online o lo que tu negocio necesite.</p></li>
+      <li><span class="entregables__num">05</span><h3>Fotos y contenido</h3><p>El material para empezar a mostrar lo que haces.</p></li>
+      <li><span class="entregables__num">06</span><h3>Lanzamiento</h3><p>Un plan para salir y la búsqueda de tus primeros clientes.</p></li>
+      <li><span class="entregables__num">07</span><h3>Números y trámites</h3><p>Precios, costes, alta y facturación.</p></li>
+      <li><span class="entregables__num">08</span><h3>Mi red</h3><p>Locales, proveedores, socios e inversores cuando aplique.</p></li>
+      <li><span class="entregables__num">09</span><h3>Contacto directo</h3><p>Una sesión semanal y un canal directo conmigo.</p></li>
+    </ol>
+
+    <p class="aviso"><strong>No incluido:</strong> los gastos externos de tu negocio (dominio, stock, alquiler, licencias). Esos los pagas tú.</p>
+  </div>
+</section>
+
+<!-- ================= 5 · CÓMO FUNCIONA ================= -->
+<section id="como-funciona" class="seccion">
+  <div class="contenedor">
+    <p class="etiqueta">Cómo funciona</p>
+    <h2 class="titular"><span data-cfg="temporada"></span>: pocas plazas, mucho trabajo</h2>
+    <p class="lead">Elijo a muy pocas personas para poder estar de verdad. Todo se documenta en redes: tu historia también inspira a otros.</p>
+
+    <h3 class="subtitulo">El formato</h3>
+    <dl class="formato">
+      <div><dt>Plazas</dt><dd><span data-cfg="plazas"></span> personas</dd></div>
+      <div><dt>Duración</dt><dd data-cfg="duracion"></dd></div>
+      <div><dt>Mi dedicación</dt><dd data-cfg="dedicacionNico"></dd></div>
+      <div><dt>Tu compromiso</dt><dd data-cfg="compromiso"></dd></div>
+      <div><dt>Dónde</dt><dd data-cfg="ubicacion"></dd></div>
+    </dl>
+
+    <h3 class="subtitulo">Lo que pido a cambio</h3>
+    <ul class="condiciones">
+      <li>
+        <span class="condiciones__cifra" data-cfg="entrada"></span>
+        <span class="condiciones__titulo">Entrada</span>
+        <p>Pago único, para asegurar el compromiso por las dos partes.</p>
+      </li>
+      <li>
+        <span class="condiciones__cifra" data-cfg="porcentaje"></span>
+        <span class="condiciones__titulo">Parte del éxito</span>
+        <p>De la facturación de tu negocio durante <span data-cfg="mesesPorcentaje"></span>, <span data-cfg="tope"></span>.</p>
+      </li>
+      <li>
+        <span class="condiciones__cifra">Redes</span>
+        <span class="condiciones__titulo">Documentación</span>
+        <p>Permiso para contar el proceso en redes. Todo queda por contrato escrito.</p>
+      </li>
+    </ul>
+    <p class="aviso aviso--oscuro">Si tu negocio no factura, el <span data-cfg="porcentaje"></span> de cero es cero. La mayor parte de lo que gano depende de que a ti te vaya bien.</p>
+
+    <h3 class="subtitulo">El proceso de selección</h3>
+    <ol class="pasos">
+      <li><h4>Convocatoria abierta</h4><p>Hasta el <span data-cfg="fechaCierre"></span>.</p></li>
+      <li><h4>Aplicas</h4><p>Rellenas el formulario. Lo leo entero, una por una.</p></li>
+      <li><h4>Prueba de 7 días</h4><p>Si pasas el primer filtro, te propongo una tarea concreta ligada a tu talento.</p></li>
+      <li><h4>Entrevista</h4><p>Con quienes completan la prueba.</p></li>
+      <li><h4>Elección</h4><p>Anuncio las <span data-cfg="plazas"></span> personas el <span data-cfg="fechaAnuncio"></span>.</p></li>
+      <li><h4>Arranque</h4><p>Firmamos el acuerdo y empezamos a construir.</p></li>
+    </ol>
+
+    <h3 class="subtitulo">Las plazas de la <span data-cfg="temporada"></span></h3>
+    <div class="plazas">
+      <!-- HUECO FOTO: persona seleccionada 1. Ruta en config.js → fotoPlaza1 -->
+      <figure class="hueco hueco--1x1" data-siempre data-media="fotoPlaza1" data-alt="Primera persona seleccionada de la Temporada 0">
+        <div class="hueco__marcador">
+          <span class="hueco__grande">01</span>
+          <span class="hueco__titulo">Plaza libre</span>
+          <span class="hueco__nota">Aquí irá la foto de la primera persona seleccionada. Puede ser la tuya.</span>
+        </div>
+      </figure>
+      <!-- HUECO FOTO: persona seleccionada 2. Ruta en config.js → fotoPlaza2 -->
+      <figure class="hueco hueco--1x1" data-siempre data-media="fotoPlaza2" data-alt="Segunda persona seleccionada de la Temporada 0">
+        <div class="hueco__marcador">
+          <span class="hueco__grande">02</span>
+          <span class="hueco__titulo">Plaza libre</span>
+          <span class="hueco__nota">Aquí irá la foto de la segunda persona seleccionada.</span>
+        </div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 6 · PARA QUIÉN ================= -->
+<section id="para-quien" class="seccion seccion--hueso">
+  <div class="contenedor">
+    <p class="etiqueta">Para quién</p>
+    <h2 class="titular">Para quién es (y para quién no)</h2>
+    <p class="lead">Cualquier negocio, local u online. Lo que importa es la persona y su fuego, no el sector. Y esto no va de que tu empleo sea malo: va de poder elegir.</p>
+
+    <div class="para-quien">
+      <div>
+        <h3 class="subtitulo">Es para ti si…</h3>
+        <ul class="lista lista--si">
+          <li>Ya practicas tu talento, aunque nadie te pague todavía.</li>
+          <li>Tienes horas reales: al menos 8 a la semana.</li>
+          <li>Hay alguien dispuesto a pagar por lo que haces, o lo podemos comprobar rápido.</li>
+          <li>Sabes hacia dónde quieres ir, no solo de qué quieres escapar.</li>
+          <li>Te parece bien que tu proceso se cuente en redes.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="subtitulo">No es para ti si…</h3>
+        <ul class="lista lista--no">
+          <li>Buscas dinero rápido o fácil. Aquí no hay atajos.</li>
+          <li>Quieres que alguien lo haga por ti mientras miras.</li>
+          <li>No puedes sacar tiempo cada semana para tu negocio.</li>
+          <li>Prefieres un curso para ir a tu ritmo. Para eso estará <a href="#comunidad">la comunidad</a>.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 7 · FORMULARIO DE APLICACIÓN ================= -->
+<section id="aplicar" class="seccion">
+  <div class="contenedor contenedor--estrecho">
+    <p class="etiqueta">Aplicar</p>
+    <h2 class="titular">Aplica a la <span data-cfg="temporada"></span></h2>
+    <p class="lead">Responde con calma y con verdad. No busco respuestas bonitas: busco saber quién eres y hacia dónde quieres ir.</p>
+    <p class="nota">Convocatoria abierta hasta el <span data-cfg="fechaCierre"></span>. Te llevará unos 15 minutos. Lo que escribes se guarda en este navegador hasta que lo envías, por si tienes que dejarlo a medias.</p>
+
+    <form id="form-aplicacion" class="formulario" data-asunto="Nueva aplicación · Temporada 0">
+      <input type="checkbox" name="botcheck" class="trampa" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <fieldset class="bloque">
+        <legend class="bloque__titulo">Sobre ti</legend>
+        <div class="campo">
+          <label for="a-nombre">Nombre y apellidos</label>
+          <input id="a-nombre" name="Nombre" type="text" autocomplete="name" required>
+        </div>
+        <div class="campo">
+          <label for="a-email">Email</label>
+          <input id="a-email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="campo">
+          <label for="a-ciudad">Ciudad y país</label>
+          <input id="a-ciudad" name="Ciudad y país" type="text" autocomplete="address-level2" required>
+        </div>
+        <div class="campo">
+          <label for="a-enlace">Enlace donde ver lo que haces <span class="opcional">(opcional)</span></label>
+          <input id="a-enlace" name="Enlace" type="text" inputmode="url" placeholder="Instagram, web, portfolio…">
+        </div>
+      </fieldset>
+
+      <div class="pregunta">
+        <label for="p1"><span class="pregunta__num">01</span>¿Cuál es tu talento o lo que te apasiona hacer?</label>
+        <textarea id="p1" name="1. Talento o pasión" rows="4" required></textarea>
+      </div>
+
+      <div class="pregunta">
+        <label for="p2"><span class="pregunta__num">02</span>¿Qué has hecho ya con eso?</label>
+        <p class="ayuda" id="p2-ayuda">Fotos, clientes, ventas, aunque sea poco. Si tienes enlaces, pégalos aquí.</p>
+        <textarea id="p2" name="2. Lo que ya ha hecho" rows="4" aria-describedby="p2-ayuda" required></textarea>
+      </div>
+
+      <fieldset class="pregunta">
+        <legend><span class="pregunta__num">03</span>¿En qué trabajas hoy y cuántas horas libres reales tienes a la semana?</legend>
+        <div class="pregunta__doble">
+          <div class="campo">
+            <label for="p3a">Tu trabajo actual</label>
+            <input id="p3a" name="3a. Trabajo actual" type="text" required>
+          </div>
+          <div class="campo">
+            <label for="p3b">Horas libres reales a la semana</label>
+            <input id="p3b" name="3b. Horas libres a la semana" type="number" inputmode="numeric" min="0" max="168" required>
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="pregunta">
+        <label for="p4"><span class="pregunta__num">04</span>¿Cuánto necesitas al mes para cubrir tus gastos básicos?</label>
+        <p class="ayuda" id="p4-ayuda">Vivienda, comida, facturas, transporte… Puedes <a href="#numero-libertad">calcularlo arriba</a>.</p>
+        <span class="campo-euro campo-euro--grande">
+          <input id="p4" name="4. Gastos básicos al mes (€)" type="number" inputmode="numeric" min="0" step="1" aria-describedby="p4-ayuda" required>
+          <span>€ / mes</span>
+        </span>
+      </div>
+
+      <div class="pregunta">
+        <label for="p5"><span class="pregunta__num">05</span>¿Qué te ha frenado hasta ahora?</label>
+        <textarea id="p5" name="5. Qué le ha frenado" rows="4" required></textarea>
+      </div>
+
+      <div class="pregunta">
+        <label for="p6"><span class="pregunta__num">06</span>¿Qué significaría para ti la libertad dentro de un año?</label>
+        <textarea id="p6" name="6. La libertad dentro de un año" rows="4" required></textarea>
+      </div>
+
+      <div class="pregunta">
+        <label for="p7"><span class="pregunta__num">07</span>¿Por qué ahora?</label>
+        <textarea id="p7" name="7. Por qué ahora" rows="3" required></textarea>
+      </div>
+
+      <fieldset class="pregunta">
+        <legend><span class="pregunta__num">08</span>¿Te parece bien que tu proceso se cuente en redes?</legend>
+        <p class="ayuda">Documentar el proceso es parte del acuerdo de la <span data-cfg="temporada"></span>.</p>
+        <div class="opciones">
+          <label class="opcion"><input type="radio" name="8. Contar el proceso en redes" value="Sí, me parece bien" required> Sí, me parece bien</label>
+          <label class="opcion"><input type="radio" name="8. Contar el proceso en redes" value="Tengo dudas, prefiero hablarlo"> Tengo dudas, prefiero hablarlo</label>
+          <label class="opcion"><input type="radio" name="8. Contar el proceso en redes" value="No"> No</label>
+        </div>
+      </fieldset>
+
+      <label class="consentimiento">
+        <input type="checkbox" name="Consentimiento" value="Acepta la política de privacidad" required>
+        <span>Soy mayor de edad, he leído la <a href="privacidad.html" target="_blank" rel="noopener">política de privacidad</a> y acepto que <span data-cfg="nombrePersona"></span> trate mis datos para gestionar mi candidatura.</span>
+      </label>
+
+      <button type="submit" class="boton boton--ancho">Enviar mi aplicación <span aria-hidden="true">→</span></button>
+      <div class="estado" role="status" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+
+<!-- ================= 8 · PREGUNTAS Y CONTACTO ================= -->
+<section id="preguntas" class="seccion seccion--hueso">
+  <div class="contenedor contenedor--estrecho">
+    <p class="etiqueta">Preguntas</p>
+    <h2 class="titular">Preguntas frecuentes</h2>
+
+    <div class="faq">
+      <details>
+        <summary>¿Tengo que dejar mi trabajo?</summary>
+        <p>No. Construimos tu negocio mientras sigues en tu empleo. Dejarlo o no es decisión tuya, y la tomas cuando llegues a tu número de libertad, desde la libertad y no desde la necesidad.</p>
+      </details>
+      <details>
+        <summary>¿Es un curso o un programa de coaching?</summary>
+        <p>No. No hay lecciones grabadas ni frases motivadoras. Soy tu socio de lanzamiento: trabajo contigo en tu negocio real, cada semana, hasta que funcione.</p>
+      </details>
+      <details>
+        <summary>¿Qué tipo de negocio puede entrar?</summary>
+        <p>Cualquiera, local u online: un oficio, un producto, un servicio, algo creativo. El filtro es la persona y su fuego, no el sector.</p>
+      </details>
+      <details>
+        <summary>¿Cuánto cuesta?</summary>
+        <p>Una entrada de <span data-cfg="entrada"></span> y el <span data-cfg="porcentaje"></span> de la facturación de tu negocio durante <span data-cfg="mesesPorcentaje"></span>, <span data-cfg="tope"></span>. Si tu negocio no factura, no pagas porcentaje. Todo por contrato escrito.</p>
+      </details>
+      <details>
+        <summary>¿Qué no está incluido?</summary>
+        <p>Los gastos externos del negocio: dominio, stock, alquiler, licencias. Esos los pagas tú. Mi tiempo, mi experiencia y mis contactos sí están incluidos.</p>
+      </details>
+      <details>
+        <summary>¿Por qué solo <span data-cfg="plazas"></span> plazas?</summary>
+        <p>Porque le dedico entre 8 y 10 horas a la semana a cada persona. Prefiero hacerlo bien con pocas que mal con muchas.</p>
+      </details>
+      <details>
+        <summary>¿Tengo que salir en redes?</summary>
+        <p>Sí: contar el proceso es parte del acuerdo. Los detalles quedan por escrito en el contrato antes de empezar.</p>
+      </details>
+      <details>
+        <summary>¿Y si no vivo en Galicia?</summary>
+        <p>Esta temporada priorizo Pontevedra y Galicia, porque hay cosas que se hacen mejor en persona. Si tu negocio puede construirse online, aplica igualmente.</p>
+      </details>
+      <details>
+        <summary>¿Y si todavía no he empezado?</summary>
+        <p>Para la <span data-cfg="temporada"></span> busco gente que ya practica su talento, aunque sea sin cobrar. Si de momento es solo una idea, apúntate a <a href="#comunidad">la lista de la comunidad</a> y empieza por ahí.</p>
+      </details>
+      <details>
+        <summary>¿Qué pasa después de aplicar?</summary>
+        <p>Leo todas las aplicaciones. Si pasas el primer filtro, te escribo con la prueba de 7 días. Después, entrevista con quienes la completan, y el <span data-cfg="fechaAnuncio"></span> anuncio las personas elegidas.</p>
+      </details>
+      <details>
+        <summary>¿Me garantizas que voy a ganar dinero?</summary>
+        <p>No. Nadie honesto puede prometerte eso. Lo que pongo es mi tiempo, lo que aprendí a golpes y mis contactos, a tu lado, cada semana.</p>
+      </details>
+    </div>
+
+    <div class="contacto">
+      <h3 class="subtitulo">¿Te queda alguna duda?</h3>
+      <p>Escríbeme a <a data-cfg="email" data-cfg-mailto href="#"></a>. Te respondo yo.</p>
+      <ul class="redes" data-redes>
+        <li data-red="instagram"><a href="#" target="_blank" rel="noopener">Instagram</a></li>
+        <li data-red="tiktok"><a href="#" target="_blank" rel="noopener">TikTok</a></li>
+        <li data-red="youtube"><a href="#" target="_blank" rel="noopener">YouTube</a></li>
+        <li data-red="linkedin"><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LISTA DE ESPERA · COMUNIDAD ================= -->
+<section id="comunidad" class="seccion">
+  <div class="contenedor dos-columnas dos-columnas--centro">
+    <div>
+      <p class="etiqueta">Próximamente</p>
+      <h2 class="titular">El método, a tu ritmo</h2>
+      <p class="lead">No todo el mundo puede entrar en el uno a uno. Estoy preparando el método que aplico con las personas seleccionadas, construido con sus casos reales, y una comunidad de gente en el mismo camino.</p>
+      <ul class="lista lista--si lista--oscura">
+        <li>El método paso a paso, desde tu talento hasta el salto (o no).</li>
+        <li>Una comunidad donde la gente se ayuda entre sí.</li>
+        <li>Una sesión grupal al mes conmigo y retos mensuales.</li>
+        <li>Prioridad en las próximas convocatorias uno a uno.</li>
+      </ul>
+      <p class="precio"><span data-cfg="precioComunidad"></span><span class="precio__mes">/mes</span></p>
+    </div>
+
+    <form id="form-espera" class="formulario tarjeta" data-asunto="Lista de espera · Comunidad">
+      <input type="checkbox" name="botcheck" class="trampa" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <h3 class="subtitulo">Apúntate a la lista de espera</h3>
+      <p class="nota">Te aviso cuando abra. Sin compromiso.</p>
+      <div class="campo">
+        <label for="e-nombre">Nombre</label>
+        <input id="e-nombre" name="Nombre" type="text" autocomplete="given-name" required>
+      </div>
+      <div class="campo">
+        <label for="e-email">Email</label>
+        <input id="e-email" name="email" type="email" autocomplete="email" required>
+      </div>
+      <label class="consentimiento">
+        <input type="checkbox" name="Consentimiento" value="Acepta la política de privacidad" required>
+        <span>He leído la <a href="privacidad.html" target="_blank" rel="noopener">política de privacidad</a> y acepto que me escribas para avisarme cuando abra la comunidad.</span>
+      </label>
+      <button type="submit" class="boton boton--ancho">Apuntarme a la lista</button>
+      <div class="estado" role="status" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= PIE ================= -->
+<footer class="pie">
+  <div class="contenedor pie__rejilla">
+    <div class="logo logo--bloque" data-logo>
+      <span class="logo__l1" data-cfg="logoLinea1" aria-hidden="true"></span>
+      <span class="logo__l2" data-cfg="logoLinea2" aria-hidden="true"></span>
+      <span class="logo__l3" aria-hidden="true"><span data-cfg="logoLinea3"></span></span>
+    </div>
+    <div class="pie__texto">
+      <p class="pie__frase">No vivas un año entero para 20 días libres.</p>
+      <nav class="pie__enlaces" aria-label="Legal">
+        <a href="privacidad.html">Política de privacidad</a>
+        <a href="aviso-legal.html">Aviso legal</a>
+        <a data-cfg="email" data-cfg-mailto href="#"></a>
+      </nav>
+      <p class="pie__copy">© <span data-anio></span> <span data-cfg="nombreMarca"></span></p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad · Nico · Fuera del guion</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0B1F3A">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+<!--
+  TEXTO BASE ORIENTATIVO. Revísalo con un asesor antes de publicar.
+  Los datos marcados entre [corchetes] se rellenan en js/config.js.
+-->
+<header class="cabecera">
+  <div class="contenedor cabecera__fila">
+    <a href="index.html" class="logo logo--linea" data-logo>
+      <span class="logo__l1" data-cfg="logoLinea1" aria-hidden="true"></span>
+      <span class="logo__l2" data-cfg="logoLinea2" aria-hidden="true"></span>
+      <span class="logo__l3" aria-hidden="true"><span data-cfg="logoLinea3"></span></span>
+    </a>
+  </div>
+</header>
+
+<main class="legal">
+  <div class="contenedor contenedor--estrecho">
+    <a class="volver" href="index.html">← Volver</a>
+    <h1>Política de privacidad</h1>
+    <p>Última actualización: <span data-cfg="fechaLegal"></span>.</p>
+
+    <h2>Quién trata tus datos</h2>
+    <ul>
+      <li><strong>Responsable:</strong> <span data-cfg="titular"></span></li>
+      <li data-si="nif"><strong>NIF/NIE:</strong> <span data-cfg="nif"></span></li>
+      <li><strong>Dirección:</strong> <span data-cfg="domicilio"></span></li>
+      <li><strong>Email:</strong> <a data-cfg="email" data-cfg-mailto href="#"></a></li>
+    </ul>
+
+    <h2>Qué datos recojo y para qué</h2>
+    <p><strong>Formulario de aplicación.</strong> Tu nombre, email, ciudad, el enlace que quieras compartir y tus respuestas. Los uso solo para valorar tu candidatura a la convocatoria, contactarte durante el proceso de selección y, si te eligen, preparar el acuerdo.</p>
+    <p><strong>Lista de espera de la comunidad.</strong> Tu nombre y tu email. Los uso solo para avisarte cuando abra la comunidad.</p>
+    <p>No uso tus datos para nada más, no los vendo y no los cedo a terceros.</p>
+
+    <h2>Base legal</h2>
+    <p>Tu consentimiento, que das al marcar la casilla del formulario (art. 6.1.a del RGPD). En el caso de la candidatura, también la aplicación de medidas precontractuales a petición tuya (art. 6.1.b del RGPD). Puedes retirar tu consentimiento en cualquier momento escribiendo al email de arriba.</p>
+
+    <h2>Cuánto tiempo los guardo</h2>
+    <ul>
+      <li><strong>Candidaturas no seleccionadas:</strong> <span data-cfg="conservacionCandidaturas"></span>, salvo que me pidas borrarlas antes.</li>
+      <li><strong>Candidaturas seleccionadas:</strong> mientras dure la relación y los plazos legales que correspondan.</li>
+      <li><strong>Lista de espera:</strong> hasta que abra la comunidad o hasta que pidas darte de baja.</li>
+    </ul>
+
+    <h2>Proveedores que intervienen</h2>
+    <p>Para que la web funcione uso algunos servicios que pueden tratar datos en mi nombre:</p>
+    <ul>
+      <li><strong>Web3Forms</strong>: recibe el formulario y me lo reenvía por email.</li>
+      <li><strong>Mi proveedor de correo electrónico</strong>, donde recibo y guardo los mensajes.</li>
+      <li><strong>El alojamiento de la web</strong> (GitHub Pages o Vercel), que registra datos técnicos de la visita, como la dirección IP.</li>
+      <li><strong>Google Fonts</strong>, que sirve las tipografías y recibe tu dirección IP al cargarlas.</li>
+    </ul>
+    <p>Algunos de estos proveedores pueden tratar datos fuera del Espacio Económico Europeo. En ese caso lo hacen con las garantías que exige el RGPD, como las cláusulas contractuales tipo de la Comisión Europea.</p>
+
+    <h2>Cookies y almacenamiento</h2>
+    <p>Esta web no usa cookies de seguimiento ni de publicidad. Mientras rellenas la aplicación, tus respuestas se guardan como borrador <strong>solo en tu navegador</strong> para que no las pierdas si cierras la página. Se borran al enviar el formulario y nunca me llegan hasta que lo envías.</p>
+
+    <h2>Tus derechos</h2>
+    <p>Puedes pedirme acceso a tus datos, corregirlos, borrarlos, oponerte a su tratamiento, limitarlo o pedir que te los entregue en un formato portable. Escríbeme a <a data-cfg="email" data-cfg-mailto href="#"></a> y te respondo en un plazo máximo de un mes.</p>
+    <p>Si crees que no he tratado bien tus datos, puedes reclamar ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es" target="_blank" rel="noopener">aepd.es</a>).</p>
+
+    <h2>Edad mínima</h2>
+    <p>Para aplicar a la convocatoria tienes que ser mayor de edad.</p>
+  </div>
+</main>
+
+<footer class="pie">
+  <div class="contenedor">
+    <nav class="pie__enlaces" aria-label="Legal">
+      <a href="index.html">Inicio</a>
+      <a href="aviso-legal.html">Aviso legal</a>
+    </nav>
+    <p class="pie__copy">© <span data-anio></span> <span data-cfg="nombreMarca"></span></p>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

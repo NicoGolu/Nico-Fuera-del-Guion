@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aviso legal · Nico · Fuera del guion</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0B1F3A">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+<!--
+  TEXTO BASE ORIENTATIVO (Ley 34/2002, LSSI). Revísalo con un asesor antes de publicar.
+  Los datos marcados entre [corchetes] se rellenan en js/config.js.
+-->
+<header class="cabecera">
+  <div class="contenedor cabecera__fila">
+    <a href="index.html" class="logo logo--linea" data-logo>
+      <span class="logo__l1" data-cfg="logoLinea1" aria-hidden="true"></span>
+      <span class="logo__l2" data-cfg="logoLinea2" aria-hidden="true"></span>
+      <span class="logo__l3" aria-hidden="true"><span data-cfg="logoLinea3"></span></span>
+    </a>
+  </div>
+</header>
+
+<main class="legal">
+  <div class="contenedor contenedor--estrecho">
+    <a class="volver" href="index.html">← Volver</a>
+    <h1>Aviso legal</h1>
+    <p>Última actualización: <span data-cfg="fechaLegal"></span>.</p>
+
+    <h2>Titular de la web</h2>
+    <ul>
+      <li><strong>Titular:</strong> <span data-cfg="titular"></span></li>
+      <li data-si="nif"><strong>NIF/NIE:</strong> <span data-cfg="nif"></span></li>
+      <li><strong>Dirección:</strong> <span data-cfg="domicilio"></span></li>
+      <li><strong>Email:</strong> <a data-cfg="email" data-cfg-mailto href="#"></a></li>
+      <li><strong>Sitio web:</strong> <span data-cfg="dominio"></span></li>
+    </ul>
+
+    <h2>Para qué sirve esta web</h2>
+    <p>Presentar el proyecto <span data-cfg="nombreMarca"></span>, recoger candidaturas para sus convocatorias de acompañamiento y gestionar la lista de espera de su comunidad. La información de la web no es una oferta contractual: las condiciones de cada acompañamiento se fijan en un contrato escrito y firmado por ambas partes.</p>
+
+    <h2>Uso de la web</h2>
+    <p>Al usar esta web te comprometes a hacerlo de buena fe y a no introducir información falsa o de terceros sin su permiso.</p>
+
+    <h2>Propiedad intelectual</h2>
+    <p>Los textos, fotos, vídeos, el logotipo y el diseño de esta web son de su titular o se usan con permiso. No puedes copiarlos ni usarlos con fines comerciales sin autorización por escrito. Las fotos y testimonios de las personas acompañadas se publican con su consentimiento.</p>
+
+    <h2>Responsabilidad</h2>
+    <p>Intento que la información sea correcta y esté al día, pero las fechas, plazas y condiciones pueden cambiar entre temporadas. Lo que cuenta en cada caso es lo que firmemos por escrito. Los resultados de cada negocio dependen de muchos factores y no se garantizan.</p>
+    <p>Esta web puede enlazar a sitios de terceros, como redes sociales, sobre cuyo contenido no tengo control.</p>
+
+    <h2>Ley aplicable</h2>
+    <p>Esta web se rige por la ley española. Para cualquier conflicto, las partes se someten a los juzgados y tribunales que correspondan según la normativa vigente.</p>
+  </div>
+</main>
+
+<footer class="pie">
+  <div class="contenedor">
+    <nav class="pie__enlaces" aria-label="Legal">
+      <a href="index.html">Inicio</a>
+      <a href="privacidad.html">Política de privacidad</a>
+    </nav>
+    <p class="pie__copy">© <span data-anio></span> <span data-cfg="nombreMarca"></span></p>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
